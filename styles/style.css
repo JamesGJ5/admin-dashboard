@@ -3,14 +3,34 @@ body {
     grid-template-columns: 200px 1fr;
     /* TODO: change the width of the 1st row if necessary */
     grid-template-rows: 150px 1fr;
+
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
 }
 
 .sidebar {
-    background-color: #0ea5e9;
     grid-row: 1 / -1;
+
+    background-color: #0ea5e9;
+
+    padding: 10px 10px 10px 0;
+
+    display: grid;
+    grid-template-columns: 75px auto;
+    grid-template-rows: 40px repeat(11, 35px);
+    align-items: center;
 }
 
-.header {
+.sidebar * {
+    color: white;
+    font-weight: 700;
+}
+
+.sidebar>:nth-child(odd) {
+    justify-self: center;
 }
 
 .main-content {
