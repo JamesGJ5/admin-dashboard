@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    /* TODO: change the width of the 1st row if necessary */
+    grid-template-rows: 150px 1fr;
+}
+
+.sidebar {
+    background-color: red;
+    grid-row: 1 / -1;
+}
+
+.header {
+    background-color: blue;
+}
+
+.main-content {
+    background-color: green;
+}
