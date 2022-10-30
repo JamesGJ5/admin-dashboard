@@ -145,6 +145,8 @@ a {
     column-gap: 10px;
 }
 
+/* TODO: later, consider adding a class to heading grid cells and then setting 
+align-self using that class as a selector */
 .main-content>:nth-child(1) {
     background-color: red;
 
