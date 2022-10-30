@@ -50,8 +50,6 @@ a {
 }
 
 #search {
-    /* background-color: yellow; */
-
     display: flex;
     align-items: center;
 }
@@ -151,9 +149,6 @@ align-self using that class as a selector */
     background-color: red;
 
     align-self: flex-end;
-
-    /* margin-top: 20px; */
-    /* padding-bottom: 0; */
 }
 
 .main-content>:nth-child(2) {
