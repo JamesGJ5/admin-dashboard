@@ -225,4 +225,18 @@ align-self using that class as a selector */
     background-color: white;
 
     padding: 10px;
+
+    font-size: 0.8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.trending-list a {
+    display: flex;
+    gap: 10px;
+
+    text-decoration: none;
+    color: black;
 }
