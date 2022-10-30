@@ -173,6 +173,12 @@ align-self using that class as a selector */
     padding: 10px;
 }
 
+.project button {
+    border: none;
+    
+    background: none;
+}
+
 .main-content>:nth-child(4) {
     background-color: blue;
 }
