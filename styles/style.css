@@ -146,7 +146,7 @@ a {
 /* TODO: later, consider adding a class to heading grid cells and then setting 
 align-self using that class as a selector */
 .main-content>:nth-child(1) {
-    background-color: red;
+    /* background-color: red; */
 
     align-self: flex-end;
 }
@@ -164,7 +164,11 @@ align-self using that class as a selector */
 }
 
 .project {
+    border-radius: 15px;
+
     background-color: white;
+
+    padding: 10px;
 }
 
 .main-content>:nth-child(4) {
