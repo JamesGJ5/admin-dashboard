@@ -219,7 +219,7 @@ align-self using that class as a selector */
     align-self: flex-end;
 }
 
-.main-content>:nth-child(6) {
+.trending-list {
     border-radius: 15px;
 
     background-color: white;
