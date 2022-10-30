@@ -62,11 +62,7 @@ a {
     flex: 1;
 
     border: none;
-    /* TODO: try to simplify into one compound statement */
-    border-top-left-radius: calc(var(--height)/2) 50%;
-    border-top-right-radius: calc(var(--height)/2) 50%;
-    border-bottom-left-radius: calc(var(--height)/2) 50%;
-    border-bottom-right-radius: calc(var(--height)/2) 50%;
+    border-radius: calc(var(--height) / 2);
 
     height: var(--height);
     padding: 0 5px;
@@ -97,11 +93,7 @@ a {
     --height: 30px;
 
     border: none;
-    /* TODO: try to simplify into one compound statement */
-    border-top-left-radius: calc(var(--height)/2) 50%;
-    border-top-right-radius: calc(var(--height)/2) 50%;
-    border-bottom-left-radius: calc(var(--height)/2) 50%;
-    border-bottom-right-radius: calc(var(--height)/2) 50%;
+    border-radius: calc(var(--height) / 2);
 
     height: var(--height);
     padding: 0 20px;
