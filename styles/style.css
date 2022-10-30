@@ -171,11 +171,20 @@ align-self using that class as a selector */
     background-color: white;
 
     padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.project .buttons {
+    margin-top: auto;
+
+    align-self: flex-end;
 }
 
 .project button {
     border: none;
-    
+
     background: none;
 }
 
