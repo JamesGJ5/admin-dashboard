@@ -166,6 +166,7 @@ align-self using that class as a selector */
 
 .project {
     border-radius: 15px;
+    border-left: solid 4px orange;
 
     background-color: white;
 
