@@ -158,7 +158,9 @@ align-self using that class as a selector */
     align-self: flex-end;
 }
 
-.main-content>:nth-child(3) {
+.projects-list {
+    grid-row: 2 / -2;
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     grid-gap: 10px;
@@ -223,8 +225,4 @@ align-self using that class as a selector */
     background-color: white;
 
     padding: 10px;
-}
-
-.projects-list {
-    grid-row: 2 / -2;
 }
