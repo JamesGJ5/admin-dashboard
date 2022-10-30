@@ -141,6 +141,7 @@ a {
     grid-template-columns: 1fr 150px;
     grid-template-rows: 40px 1fr 40px 1fr 40px;
     column-gap: 10px;
+    row-gap: 5px;
 }
 
 /* TODO: later, consider adding a class to heading grid cells and then setting 
