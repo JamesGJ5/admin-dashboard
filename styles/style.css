@@ -3,7 +3,6 @@ body {
 
     display: grid;
     grid-template-columns: 200px 1fr;
-    /* TODO: change the width of the 1st row if necessary */
     grid-template-rows: 150px 1fr;
 
     font-family: 'Roboto';
@@ -146,17 +145,11 @@ a {
     row-gap: 5px;
 }
 
-/* TODO: later, consider adding a class to heading grid cells and then setting 
-align-self using that class as a selector */
 .main-content>:nth-child(1) {
-    /* background-color: red; */
-
     align-self: flex-end;
 }
 
 .main-content>:nth-child(2) {
-    /* background-color: green; */
-
     align-self: flex-end;
 }
 
@@ -216,8 +209,6 @@ align-self using that class as a selector */
 }
 
 .main-content>:nth-child(5) {
-    /* background-color: orange; */
-
     align-self: flex-end;
 }
 
