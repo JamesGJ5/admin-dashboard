@@ -160,7 +160,7 @@ align-self using that class as a selector */
 
 .main-content>:nth-child(3) {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     grid-gap: 10px;
 }
 
