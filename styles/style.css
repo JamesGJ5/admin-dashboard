@@ -189,7 +189,7 @@ align-self using that class as a selector */
     background: none;
 }
 
-.main-content>:nth-child(4) {
+.announcements-list {
     border-radius: 15px;
 
     background-color: white;
