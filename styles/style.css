@@ -163,7 +163,13 @@ align-self using that class as a selector */
 }
 
 .main-content>:nth-child(3) {
-    background-color: purple;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.project {
+    background-color: white;
 }
 
 .main-content>:nth-child(4) {
