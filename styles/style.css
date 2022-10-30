@@ -101,6 +101,9 @@ a {
     border-top-right-radius: calc(var(--height)/2) 50%;
     border-bottom-left-radius: calc(var(--height)/2) 50%;
     border-bottom-right-radius: calc(var(--height)/2) 50%;
+
+    background-color: #0ea5e9;
+    color: white;
 }
 
 #welcome {
