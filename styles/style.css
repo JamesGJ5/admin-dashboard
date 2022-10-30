@@ -1,4 +1,6 @@
 body {
+    min-height: 100vh;
+
     display: grid;
     grid-template-columns: 200px 1fr;
     /* TODO: change the width of the 1st row if necessary */
