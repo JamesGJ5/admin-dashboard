@@ -141,16 +141,23 @@ a {
 
     display: grid;
     grid-template-columns: 1fr 150px;
-    grid-template-rows: 20px 1fr 20px 1fr 20px;
+    grid-template-rows: 40px 1fr 40px 1fr 40px;
     column-gap: 10px;
 }
 
 .main-content>:nth-child(1) {
     background-color: red;
+
+    align-self: flex-end;
+
+    /* margin-top: 20px; */
+    /* padding-bottom: 0; */
 }
 
 .main-content>:nth-child(2) {
     background-color: green;
+
+    align-self: flex-end;
 }
 
 .main-content>:nth-child(3) {
@@ -163,6 +170,8 @@ a {
 
 .main-content>:nth-child(5) {
     background-color: orange;
+
+    align-self: flex-end;
 }
 
 .main-content>:nth-child(6) {
